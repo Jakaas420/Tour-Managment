@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+   background-color:  #452440;
+}
+.navbar{
+    height: 80px;
+    background-color:whitesmoke;
+    border-bottom: 0.5px solid black;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    height: 85px;
+    width: 100px;
+    padding: 1px 8px 0px 6px;
+}
+.logo{
+    background-image: url("/Images/logo.png");
+
+    background-size: 100% 100%;
+    position: absolute;
+    top: -4px;
+    height: 82px;
+    width: 80px;
+    margin: 1px;
+}
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.nav-menu ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 19px;
+    font-weight: bold;
+}
+
+.nav-menu ul li a:hover{
+    border: 2px solid black ;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.nav-sign{
+    color: black;
+    width: 110px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-sign a{
+    padding: 0;
+
+}
+.nav-sign a p{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+
+.nav-sign:hover{
+    border: 2px solid violet;
+    border-radius: 7px;
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+}
+.imgslider{
+    height: 520px;
+    background-size: 100% 100%;
+    animation: slider 15s linear infinite;
+    
+
+}
+@keyframes slider {
+    0%{
+         background-image:url("Rajasthan.jpg");
+    }
+    25%{
+        background-image:url("Rajasthan2.jpg");
+    } 
+    50%{
+        background-image: url("Rajasthan3.jpg");
+    }
+    75%{
+        background-image:  url("Rajasthan4.webp");
+    }
+    100%{
+        background-image:url("Rajasthan5.webp");
+    }
+}
+
+/* .imgslider{
+    height: 530px;
+    width: 100%;
+    background-size: 100% 100%;
+    animation: slider 10s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes slider {
+    0%{
+         background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("Rajasthan.jpg");
+    }
+    25%{
+        background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("Rajasthan2.jpg");
+    } 
+    50%{
+        background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("Rajasthan3.jpg");
+    }
+    75%{
+        background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url("Rajasthan4.webp");
+    }
+     100%{
+        background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("Rajasthan5.webp"));
+    }
+} */
+.slogen p{
+    color: white;
+    position: absolute;
+    margin-left: 50px;
+    font-family: 'Poppins',sans-serif;
+
+}
+.slogen h1{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    position: absolute;
+    right: 300px;
+    top: 200px;
+    font-size: 3rem;
+}
+.top-destination{
+    height: 450px;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 50px;
+    color:white;    
+    padding-top: 40px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+h5{
+    font-size: 35px;
+    color:black; 
+    height: 50px;
+    background-color: whitesmoke;
+    padding: 20px 20px 0px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+a{
+    height: 25px;
+    width: 138px;
+    font-weight: bolder;
+    font-size: 17px;
+    padding-left: 33px;
+    padding-top: 20px;
+}
+.box{
+    height: 350px;
+    width: 270px;
+   margin-top: 40px;
+   background-color: white;
+}
+.box-img{
+    margin-bottom: 1rem;
+    background-size: 100% 100%;
+    height: 275px;
+     border: 2px solid white;
+     /* border-radius: 10px;  */
+}
+/* .box h4{
+    height: 35px;
+    font-size: 20px;
+    color: #38404f;
+    font-weight: bolder;
+    margin-left: 50px;
+} */
+.button{
+    height: 50px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+}
+.heritage{
+    height: 30px;
+    width: 140px;
+    margin-left: 60px;
+    border-radius: 15px;
+    border: 0.5px solid black;
+}
+.heritage a{
+    color: red;
+      
+    text-decoration: none;
+    font-size: 17px;
+    padding-top:10px ;
+   
+    font-weight: 600;
+}
+.heritage:hover{
+    background-color: rgb(69, 5, 69);
+    color: white;
+    transition: 0.5s;
+}
+.heritage a:hover{
+    color: white;
+    transition: 0.5s;
+}   
+
+h1{
+    font-size: 40px;
+    color:white;
+    height: 50px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+.detail-section{
+    height: 500;
+    display: flex;
+    justify-content: space-around;
+}
+.detail{
+    height: 450px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.like-icon{
+    height: 126px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.like-icon i{
+    height: 56px;
+    width: 56px;
+    font-size: 60px;
+}
+.description h3{
+    font-size: 23px;
+    margin-left: 18px;
+    color: #38404f;
+}
+.description p{
+    color: #38404f;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.detail-section2{
+    height: 700px;
+}
+.detail-img{
+    background-image: url("4.jpg");
+    border-radius: 8px;
+    background-size: 100% 100%;
+    height: 650px;
+    width: 400px;
+    position: absolute;
+    right: 150px;
+    margin-top: 7px;
+}
+.description2{
+
+    width: 500px;
+}
+.description2 p{
+    margin-top: 40px;
+    padding-left: 30px;
+    color:white;
+    font-size: 18px;
+}
+
+footer{
+    background-color: black;
+}
+.footerContainer{
+    height: 130px;
+    padding: 50px 30px 20px ;
+}
+.socialIcon{
+    display: flex;
+    justify-content: center;
+}
+.socialIcon a{
+    text-decoration: none;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    background-color:white;    
+    height: 20px;
+    border-radius:50%;
+ 
+}
+.socialIcon a i{
+    font-size: 2em;
+    opacity: 0.9;
+    color:black;
+}
+.socialIcon a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.socialIcon a i:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+    opacity: 0.5;
+}
+@media (max-width:700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        text-align: center;
+        margin: 10px;
+        width: 100%;
+    }
+}

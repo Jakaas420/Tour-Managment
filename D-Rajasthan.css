@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    height: 80px;
+    background-color:whitesmoke;
+    border-bottom: 0.5px solid black;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    height: 85px;
+    width: 100px;
+    padding: 1px 8px 0px 6px;
+}
+.logo{
+    background-image: url('Images/logo.png');
+   
+    background-size: 100% 100%;
+    position: absolute;
+    top: -4px;
+    height: 82px;
+    width: 80px;
+    margin: 1px;
+}
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.nav-menu ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 19px;
+    font-weight: bold;
+}
+.nav-menu ul li a:hover{
+    border: 2px solid black ;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.nav-sign{
+    color: black;
+    width: 110px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-sign p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.nav-sign:hover{
+    border: 2px solid violet;
+    border-radius: 7px;
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+}
+
+.banner-section{
+    height: 430px;
+}
+.img-section{
+    height: 430px;
+    width: 700px;
+
+}
+.img-contant{
+    height: 430px;
+    width: 700px;
+    background-size: 100% 100%;
+    border-top-right-radius: 175px;
+    animation: slider 15s linear infinite;
+    border-bottom-right-radius: 175px;
+
+}
+@keyframes slider {
+    0%{
+         background-image:url("Rajasthan.jpg");
+    }
+    25%{
+        background-image:url("Rajasthan2.jpg");
+    } 
+    50%{
+        background-image: url("Rajasthan3.jpg");
+    }
+    75%{
+        background-image:  url("Rajasthan4.webp");
+    }
+    100%{
+        background-image:url("Rajasthan5.webp");
+    }
+}
+
+.Go-Back{
+    height: 31px;
+    width: 400px;
+    position: absolute;
+    right: 150px;
+    margin-top: 15px;
+}
+.Go-Back p{
+    margin-left: 20px;
+    margin-top: 15px;   
+}
+.Go-Back a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#585c66;
+    font-weight: 600;
+}
+.Go-Back i{
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #f46603;
+}
+h1{
+    height: 31px;
+    width: 400px;
+    position: absolute;
+    right: 130px;
+    margin-top: 70px;
+    color: #3b404b;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner-section h4{
+    width: 500px;
+    position: absolute;
+    right: 30px;
+   margin-top: 125px;
+    color: #3b404b;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box1{
+    height: 200px;
+    width: 230px;
+    background-color: white;
+    position: absolute;
+    right: 300px;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px 3px gray;
+
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    margin-left: 170px;
+    margin-top: 20px;
+    background-image: url('Images/Taj-Mahal.png');
+    background-size: 100% 100%;
+}
+
+.box2{
+    height: 200px;
+    width: 230px;
+    background-color: white;
+    position: absolute;
+    right:40px;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px 3px gray;
+
+
+}
+.icon{
+    height: 50px;
+    width: 60px;
+    margin-left: 170px;
+    margin-top: 20px;
+    background-image: url('Images/Tiger_1.jpg');
+    background-size: 100% 100%;
+}
+
+.box1-contant{
+    height:200px;
+    width: 230px;
+}
+.box1-contant h3{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.box1-contant p{
+     margin-left: 10px;
+     margin-top: 10px; 
+    font-size: 13px;
+}
+
+.box2-contant{
+    height: 200px;
+    width: 230px;
+}
+.box2-contant h3{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.box2-contant p{
+     margin-left: 10px;
+     margin-top: 10px; 
+    font-size: 13px;
+}
+
+.description{
+    height: 1000px;
+    background-color: #42485a;
+}
+.about-raj h2{
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+.about-raj p{
+    padding: 15px;
+    color: white;
+}
+
+.weather{
+    height: 400px;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.box{
+    height: 320px;
+    width: 350px;
+    /* border: 0.5px solid black; */
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 3px 3px gray;
+}
+.box-contant p{
+    color: black;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.heading{
+    height: 50px;
+    margin-top:20px ;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.sun-icon{
+        height: 50px;
+        width: 60px;
+         margin-top: 20px;
+        background-image: url('Images/Sun1.jpg');
+        background-color: whitesmoke;
+        background-size: 100% 100%;
+}
+.Monsoon-icon{
+    height: 50px;
+    width: 60px;
+     margin-top: 20px;
+    background-image: url('Images/umbrell.jpg');
+    background-color: whitesmoke;
+    background-size: 100% 100%;
+}
+
+.Winters-icon{
+    height: 50px;
+    width: 60px;
+     margin-top: 20px;
+    background-image: url('Images/winter.avif');
+    background-color: whitesmoke;
+    background-size: 100% 100%;
+}
+
+
+.box-contant h3{
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: -65px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Places{
+    height: 500px;
+    background-color: rgb(69, 5, 69);
+    display: flex; 
+    justify-content: space-evenly;
+    
+}
+.boxes{
+    height: 400px;
+    width: 390px;
+     border: 0.5px solid black;
+     border-radius: 10px; 
+    background-color: white;
+    margin: 10px;
+    /* box-shadow: 5px 5px 3px 3px gray; */
+}
+.heading2{
+    height: 50px;
+    padding: 25px;
+    color: white;
+    background-color: rgb(69, 5, 69);
+    font-size: 22px;
+}
+.Jaipur-img{
+    height: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 390px;
+    background-image: url('Jaipur.jpg');
+    background-size: 100% 100%;
+}
+.Udaipur-img{
+    height: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 390px;
+    background-image: url('udaipur.jpg');
+    background-size: 100% 100%;
+}
+.Jaisalmer-img{
+    height: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 390px;
+    background-image: url('jaisalmer.webp');
+    background-size: 100% 100%;
+}
+
+.boxes-contant h3 {
+    color: black;
+    font-size: 22px;
+    padding: 25px;
+    
+}
+.boxes-contant p{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.button{
+    height: 50px;
+    width: 390px;
+    margin-left: 25px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.heritage{
+    height: 30px;
+    width: 140px;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-left: 100px;
+    border: 0.5px solid black;
+}
+.heritage a{
+    color: red;
+    margin-bottom: 10px;  
+    text-decoration: none;
+    font-size: 17px;
+    margin: 20px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.heritage:hover{
+    background-color: rgb(69, 5, 69);
+    color: white;
+    transition: 0.5s;
+}
+.heritage a:hover{
+    background-color: rgb(69, 5, 69);
+    color: white;
+    transition: 0.5s;
+}
+/* .fort{
+    height: 25px;
+    border-radius: 15px;
+    width: 90px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 0.5px solid black;
+}
+.fort p{
+    color: red;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 10px;
+
+} */
+/* .button a{
+    color : rgb(195, 10, 10);
+    margin-right: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+} */
+
+.heading3{
+    height: 50px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.Air-icon{
+    height: 50px;
+    width: 50px;
+     margin-top: 20px;
+     margin-left: 10px;
+     margin-bottom: 10px;
+    background-image: url('Images/airplan.avif');
+    background-color: whitesmoke;
+    background-size: 100% 100%;
+}
+.Train-icon{
+    height: 80px;
+    width: 90px;
+     margin-top: px;
+    background-image: url('Images/train2.avif');
+    background-color: whitesmoke;
+    background-size: 100% 100%;
+}
+.Bus-icon{
+    height: 50px;
+    width: 50px;
+     margin-top: 20px;
+     margin-left: 10px;
+     margin-bottom: 10px;
+    background-image: url('bus.avif');
+    background-color: whitesmoke;
+    background-size: 100% 100%;
+}
+
+.box3-contant h3{
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: -65px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box3-contant p{
+    color: black;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+footer{
+    background-color: black;
+}
+.footerContainer{
+    height: 130px;
+    padding: 50px 30px 20px ;
+}
+.socialIcon{
+    display: flex;
+    justify-content: center;
+}
+.socialIcon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white;    
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcon a i{
+    font-size: 2em;
+    opacity: 0.9;
+    color:black;
+}
+.socialIcon a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.socialIcon a i:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footernav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+    opacity: 0.5;
+}
+@media (max-width:700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        text-align: center;
+        margin: 10px;
+        width: 100%;
+    }
+}

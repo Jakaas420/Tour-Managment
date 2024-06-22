@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    height: 80px;
+    background-color:whitesmoke;
+    border-bottom: 0.5px solid black;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    height: 85px;
+    width: 100px;
+    padding: 1px 8px 0px 6px;
+}
+.logo{
+    background-image: url("logo.png");
+    /* background: transparent; */
+    background-size: 100% 100%;
+    position: absolute;
+    top: -4px;
+    height: 82px;
+    width: 80px;
+    margin: 1px;
+}
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.nav-menu ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 19px;
+    font-weight: bold;
+}
+.nav-menu ul li a:hover{
+    border: 2px solid black ;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.nav-sign{
+    color: black;
+    width: 110px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-sign p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.nav-sign:hover{
+    border: 2px solid violet;
+    border-radius: 7px;
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+}
+
+.Go-Back{
+    height: 31px;
+    margin-top: 15px;
+}
+
+.Go-Back p{
+    margin-left: 20px;
+    margin-top: 15px;   
+}
+.Go-Back a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#585c66;
+    font-weight: 600;
+}
+.Go-Back i{
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #f46603;
+}
+
+.banner-section{
+    height: 430px;
+    display: flex;
+}
+
+.img-section{
+    height: 430px;
+    width: 1000px;
+  
+}
+.img-contant{
+    height: 430px;
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(jaipur-sight.jpg);
+    background-size: 100% 100%;
+    width: 1220px;
+    margin-left: 20px;
+    background-size: 100% 100%;
+    animation: slider 15s linear infinite;
+}
+.img-contant P{
+    font-size: 40px;
+    word-spacing: 8px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 170px;
+}
+/* @keyframes slider {
+    0%{
+         background-image:url("J-HoneyMoon1.jpg");
+    }
+    25%{
+        background-image:url("J-HoneyMoon2.jpg");
+    } 
+    50%{
+        background-image: url("J-HoneyMoon3.jpg");
+    }
+    75%{
+        background-image:  url("J-HoneyMoon5.jpg");
+    }
+    100%{
+        background-image:url("J-HoneyMoon5.webp");
+    }
+} */
+.nav-header{
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.duration{
+    border-right: 1px solid black;
+}
+.nav-header .duration p{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-header .duration h3{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+
+.detail-section{
+    height: 430px;
+    margin-right: 20px;
+
+}
+.detail-contant{
+    height: 430px;
+    width: 510px;
+    margin-right: 20px;
+    background-color: #fff4e9;
+    border: 0.5px solid#fff4e9;
+
+
+}
+.description .detail h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.detail-contant h2{
+    margin-left: 25px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:50px;
+    color: #3b404b;
+}
+.detail-contant a{
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #3b404b;
+
+}
+.detail-contant h3{
+    margin-left: 25px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:40px;
+    color: #3b404b;
+}
+.icons{
+    height: 200px;
+    width: 450px;
+    display: flex;
+}
+.box1{
+    height: 80px;
+    width: 100px;
+    margin-top: 10px;
+    background-image: url('accomodation.svg');
+    background-size: 100% 100%;
+    margin-left: 25px;
+}
+.box1 p{
+    font-size: 15px;
+    margin-top: 80px;
+}
+.box2{
+    height: 80px;
+    width: 100px;
+    margin-top: 10px;
+    background-image: url('taxi.svg');
+    background-size: 100% 100%;
+    margin-left: 25px;
+}
+.box2 p{
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.box3{
+    height: 80px;
+    width: 100px;
+     margin-top: 10px;
+    background-image: url('meal.svg');
+    background-size: 100% 100%;
+    margin-left: 25px;
+}
+.box3 p{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 80px;
+    
+}
+.box4{
+    height: 80px;
+    width: 100px;
+    margin-top: 10px;
+    background-image: url('sightseeing.svg');
+    background-size: 100% 100%;
+    margin-left: 25px;
+}
+.box4 p{
+    font-size: 15px;
+    margin-top: 80px;
+}
+.description{
+    height: 280px;
+    display: flex;
+}
+.detail{
+    height: 220px;
+    border: 0.2px solid black;
+    margin: 20px;
+    width: 800px;
+    background-color: white;
+
+}
+.detail p{
+    font-size: 15px;
+    padding: 20px;
+}
+.booking{
+    height: 220px;
+    border: 0.2px solid black;
+    margin: 20px;
+    width: 440px;
+
+    background-color: white;
+
+}
+
+.booking .icon a{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.booking .icon i{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.booking .icon span{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+.booking p{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.book{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    margin-left: 100px;
+    background-color: purple;
+    margin-top: 40px;
+}
+.book p{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+.description2{
+    height: 680px;
+    display: flex;
+}
+.detail2{
+    height: 660px;
+    border: 0.2px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 800px;
+    background-color: white;
+
+}
+.detail2 p{
+    font-size: 15px;
+    padding: 20px;
+}
+.in-box {
+    height: 660px;
+    border: 0.2px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 440px;
+    background-color: white;
+
+}
+.in-box h2{
+    margin-left: 80px;
+    font-size: 22px;
+    color: #585c66;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.in-box h3{
+    color: #585c66;
+    margin-left: 40px;
+    font-size: 17px;
+    margin-top: 20px;
+
+}
+.in-box input{
+    margin-left: 40px;
+    margin-top: 15px;
+    width: 300px;
+    height: 40px;
+}
+.in-box button{
+    height: 50px;
+    width: 300px;
+    background-color:#ff6612;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.in-box button p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.detail2 h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.day1{
+    height: 170px;
+    width: 760px;
+    border-bottom: 0.5px dotted black;
+
+   
+}
+.day1 h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.day1 span{
+    position: absolute;
+    font-weight: 600;
+    left: 300px;
+}
+.day1 p{
+    margin-left: 10px;
+    font-size: 15px;
+    color:#585c66;
+    margin-top: 10px;
+}
+.day2{
+    height: 150px;
+    width: 760px;
+    border-bottom: 0.5px dotted black;
+    border-top: 0.5px dotted black;
+
+}
+.day2 h3{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+.day2 span{
+    position: absolute;
+    font-weight: 600;
+    left: 200px;
+}
+.day2 p{
+    margin-left: 10px;
+    font-size: 15px;
+    color:#585c66;
+    margin-top: 10px;
+}
+
+.day3{
+    height: 150px;
+    width: 760px;
+    
+    border-top: 0.5px dotted black;
+
+}
+.day3 h3{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+.day3 span{
+    position: absolute;
+    font-weight: 600;
+    left: 330px;
+}
+.day3 p{
+    margin-left: 10px;
+    font-size: 15px;
+    color:#585c66;
+    margin-top: 10px;
+}
+.day4{
+    height: 150px;
+    width: 760px;
+    border-top: 0.5px dotted black;
+
+}
+.day4 h3{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+.day4 span{
+    position: absolute;
+    font-weight: 600;
+    left: 350px;
+}
+.day4 p{
+    margin-left: 10px;
+    font-size: 15px;
+    color:#585c66;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+}
+.footerContainer{
+    height: 130px;
+    padding: 50px 30px 20px ;
+}
+.socialIcon{
+    display: flex;
+    justify-content: center;
+}
+.socialIcon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white;    
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcon a i{
+    font-size: 2em;
+    opacity: 0.9;
+    color:black;
+}
+.socialIcon a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.socialIcon a i:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footernav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+    opacity: 0.5;
+}
+@media (max-width:700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        text-align: center;
+        margin: 10px;
+        width: 100%;
+    }
+}
